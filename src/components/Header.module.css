@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  width: 481px;
+  height: 44px;
+  justify-content: space-between;
+}
+
+.main-header {
+  font-size: 32px;
+  color: #ffffff;
+  align-self: end;
+  letter-spacing: -0.53px;
+}
+
+.theme {
+  margin-left: auto;
+  margin-right: 26px;
+  margin-top: 16px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-self: center;
+  letter-spacing: 1px;
+}
+
+.theme-container {
+  color: #ffffff;
+  width: 71px;
+  height: 44px;
+}
+
+.numbers {
+  width: 100%;
+  padding: 0 7px;
+  word-spacing: 10px;
+  text-align: center;
+}
+
+.button-theme-switcher-container {
+  background: #242d44;
+  border-radius: 13px;
+  width: 71px;
+  height: 26px;
+  padding: 5px;
+}
+
+.button-theme-switcher {
+  background: #d03f2f;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+}
