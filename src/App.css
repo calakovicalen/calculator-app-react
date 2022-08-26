@@ -8,5 +8,6 @@
 .calculator-body {
   padding: 96px 0px; /* Trenutno, posle zameniti */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

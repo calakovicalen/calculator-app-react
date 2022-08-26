@@ -1,0 +1,16 @@
+.calculator-input {
+  border: none;
+  background: #181f33;
+  width: 540px;
+  height: 128px;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 31px;
+  margin-bottom: 24px;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  padding: 32px;
+  color: #ffffff;
+  text-align: right;
+}
