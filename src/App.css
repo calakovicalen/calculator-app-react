@@ -1,5 +1,5 @@
 .App {
-  width: 100%;
+  min-width: 100%;
   min-height: 100vh;
   font-family: "League Spartan", sans-serif;
 }
@@ -20,7 +20,7 @@
 }
 
 .calculator-body {
-  padding: 96px 0px; /* Trenutno, posle zameniti */
+  padding: 9.6rem 0rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,21 +37,21 @@
 .buttons-numbers-and-operations--theme1 {
   background: #eae3dc;
   color: #434a59;
-  box-shadow: inset 0px -4px 0px #b3a497;
+  box-shadow: inset 0rem -0.4rem 0rem #b3a497;
   transition: all 0.4s;
 }
 
 .buttons-del-and-reset--theme1 {
   background: #647198;
   color: #ffffff;
-  box-shadow: inset 0px -4px 0px #414e73;
+  box-shadow: inset 0rem -0.4rem 0rem #414e73;
   transition: all 0.4s;
 }
 
 .buttons-equal--theme1 {
   background: #d03f2f;
   color: #ffffff;
-  box-shadow: inset 0px -4px 0px #93261a;
+  box-shadow: inset 0rem -0.4rem 0rem #93261a;
   transition: all 0.4s;
 }
 
@@ -65,7 +65,7 @@
 
 .buttons-numbers-and-operations--theme2 {
   background: #e5e4e1;
-  box-shadow: inset 0px -4px 0px #a79e91;
+  box-shadow: inset 0rem -0.4rem 0rem #a79e91;
   color: #36362c;
   transition: all 0.4s;
 }
@@ -73,14 +73,14 @@
 .buttons-del-and-reset--theme2 {
   background: #378187;
   color: #ffffff;
-  box-shadow: inset 0px -4px 0px #1b6066;
+  box-shadow: inset 0rem -0.4rem 0rem #1b6066;
   transition: all 0.4s;
 }
 
 .buttons-equal--theme2 {
   background: #c85402;
   color: #ffffff;
-  box-shadow: inset 0px -4px 0px #873901;
+  box-shadow: inset 0rem -0.4rem 0rem #873901;
   transition: all 0.4s;
 }
 
@@ -94,21 +94,21 @@
 
 .buttons-numbers-and-operations--theme3 {
   background: #331c4d;
-  box-shadow: inset 0px -4px 0px #881c9e;
+  box-shadow: inset 0rem -0.4rem 0rem #881c9e;
   color: #ffe53d;
   transition: all 0.4s;
 }
 
 .buttons-del-and-reset--theme3 {
   background: #56077c;
-  box-shadow: inset 0px -4px 0px #be15f4;
+  box-shadow: inset 0rem -0.4rem 0rem #be15f4;
   color: #ffffff;
   transition: all 0.4s;
 }
 
 .buttons-equal--theme3 {
   background: #00ded0;
-  box-shadow: inset 0px -4px 0px #6cf9f1;
+  box-shadow: inset 0rem -0.4rem 0rem #6cf9f1;
   color: #1a2327;
   transition: all 0.4s;
 }
@@ -123,4 +123,10 @@
 
 .buttons-numbers-and-operations--theme3:hover {
   background: #6c34ac;
+}
+
+@media only screen and (max-width: 600px) {
+  .calculator-body {
+    padding: 3rem 2rem;
+  }
 }

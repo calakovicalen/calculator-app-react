@@ -1,14 +1,14 @@
 .header {
   display: flex;
-  width: 533px;
-  height: 44px;
+  width: 53.3rem;
+  height: 4.4rem;
   justify-content: space-between;
 }
 
 .main-header {
-  font-size: 32px;
+  font-size: 3.2rem;
   align-self: end;
-  letter-spacing: -0.53px;
+  letter-spacing: -0.053rem;
 }
 
 .main-header--theme1 {
@@ -28,12 +28,12 @@
 
 .theme {
   margin-left: auto;
-  margin-right: 26px;
-  margin-top: 16px;
-  font-size: 12px;
+  margin-right: 2.6rem;
+  margin-top: 1.6rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   align-self: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .theme--theme1 {
@@ -52,15 +52,17 @@
 }
 
 .theme-container {
-  width: 71px;
-  height: 44px;
+  width: 7.1rem;
+  height: 4.4rem;
 }
 
 .numbers {
   width: 100%;
-  padding: 0 7px;
-  word-spacing: 10px;
+  font-size: 1.2rem;
+  padding: 0 0.7rem;
+  word-spacing: 1rem;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .numbers--theme1 {
@@ -79,10 +81,10 @@
 }
 
 .button-theme-switcher-container {
-  border-radius: 13px;
-  width: 71px;
-  height: 26px;
-  padding: 5px;
+  border-radius: 1.3rem;
+  width: 7.1rem;
+  height: 2.6rem;
+  padding: 0.5rem;
 }
 
 .button-theme-switcher-container--theme1 {
@@ -101,8 +103,8 @@
 }
 
 .button-theme-switcher {
-  height: 16px;
-  width: 16px;
+  height: 1.6rem;
+  width: 1.6rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -111,19 +113,19 @@
 
 .button-theme-switcher--theme1 {
   background: #d03f2f;
-  transform: translateX(0px);
+  transform: translateX(0rem);
   transition: all 0.4s;
 }
 
 .button-theme-switcher--theme2 {
   background: #c85402;
-  transform: translateX(21px);
+  transform: translateX(2.1rem);
   transition: all 0.4s;
 }
 
 .button-theme-switcher--theme3 {
   background: #00ded0;
-  transform: translateX(42px);
+  transform: translateX(4.2rem);
   transition: all 0.4s;
 }
 
@@ -137,4 +139,11 @@
 
 .button-theme-switcher--theme3:hover {
   background: #93fff8;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 32rem;
+    height: 4.2rem;
+  }
 }

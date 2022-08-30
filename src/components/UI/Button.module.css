@@ -1,13 +1,19 @@
 .buttons {
-  font-size: 40px;
+  font-size: 4rem;
   font-family: "League Spartan", sans-serif;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 1rem;
 
   border: none;
   cursor: pointer;
 }
 
 .buttons:active {
-  transform: translateY(2px);
+  transform: translateY(0.2rem);
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons {
+    font-size: 2rem;
+  }
 }

@@ -1,12 +1,12 @@
 .buttons-body {
-  width: 540px;
-  height: 480px;
-  padding: 32px;
-  border-radius: 10px;
+  width: 54rem;
+  height: 48rem;
+  padding: 3.2rem;
+  border-radius: 1rem;
   display: grid;
-  grid-template-columns: repeat(4, 101px);
-  row-gap: 24px;
-  column-gap: 25px;
+  grid-template-columns: repeat(4, 10.1rem);
+  row-gap: 2.4rem;
+  column-gap: 2.5rem;
 }
 
 .buttons-body--theme1 {
@@ -22,4 +22,13 @@
 .buttons-body--theme3 {
   background: #1e0936;
   transition: all 0.4s;
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons-body {
+    width: 32.7rem;
+    height: 42rem;
+    grid-template-columns: repeat(4, 6rem);
+    gap: 1.3rem;
+  }
 }

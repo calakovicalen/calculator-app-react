@@ -13,7 +13,7 @@ const Input = ({ value, themes }) => {
           : `${classes["calculator-input--theme1"]}`
       }`}
       mode="single"
-      max={56}
+      max={90}
     >
       {value}
     </Textfit>

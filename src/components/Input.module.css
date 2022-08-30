@@ -1,17 +1,17 @@
 .calculator-input {
   border: none;
-  width: 540px;
-  height: 128px;
-  border-radius: 10px;
+  width: 54rem;
+  height: 12.8rem;
+  border-radius: 1rem;
   outline: none;
-  margin-top: 31px;
-  margin-bottom: 24px;
-  font-size: 56px;
+  margin-top: 3.1rem;
+  margin-bottom: 2.4rem;
+  font-size: 5.6rem;
   font-weight: 700;
   font-family: "League Spartan", sans-serif;
-  padding: 32px;
+  padding: 3.2rem;
   text-align: right;
-  line-height: 80px;
+  line-height: 8rem;
 }
 
 .calculator-input--theme1 {
@@ -31,4 +31,12 @@
   background: #1e0936;
   transition: 0.4s;
   color: #ffe53d;
+}
+
+@media only screen and (max-width: 600px) {
+  .calculator-input {
+    width: 32.7rem;
+    height: 8.8rem;
+    line-height: 4rem;
+  }
 }

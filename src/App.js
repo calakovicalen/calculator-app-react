@@ -78,7 +78,7 @@ function App() {
           ? a + b
           : sign === "-"
           ? a - b
-          : sign === "X"
+          : sign === "x"
           ? a * b
           : a / b;
 
@@ -121,7 +121,6 @@ function App() {
         ),
       });
     }
-    console.log(calc);
   };
 
   const resetClickHandler = () => {
