@@ -1,0 +1,13 @@
+.buttons {
+  font-size: 40px;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.buttons:active {
+  transform: translateY(2px);
+}

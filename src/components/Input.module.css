@@ -1,6 +1,5 @@
 .calculator-input {
   border: none;
-  background: #181f33;
   width: 540px;
   height: 128px;
   border-radius: 10px;
@@ -11,6 +10,25 @@
   font-weight: 700;
   font-family: "League Spartan", sans-serif;
   padding: 32px;
-  color: #ffffff;
   text-align: right;
+  line-height: 80px;
+}
+
+.calculator-input--theme1 {
+  background: #181f33;
+  transition: 0.4s;
+
+  color: #ffffff;
+}
+
+.calculator-input--theme2 {
+  background: #eeeeee;
+  transition: 0.4s;
+  color: #36362c;
+}
+
+.calculator-input--theme3 {
+  background: #1e0936;
+  transition: 0.4s;
+  color: #ffe53d;
 }

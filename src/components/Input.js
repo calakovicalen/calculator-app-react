@@ -1,8 +1,22 @@
 import classes from "./Input.module.css";
+import { Textfit } from "react-textfit";
 
-const Input = (props) => {
+const Input = ({ value, themes }) => {
   return (
-    <input type={props.type} className={classes[`calculator-input`]}></input>
+    <Textfit
+      className={`${classes[`calculator-input`]}
+      ${
+        themes.theme2
+          ? `${classes["calculator-input--theme2"]}`
+          : themes.theme3
+          ? `${classes["calculator-input--theme3"]}`
+          : `${classes["calculator-input--theme1"]}`
+      }`}
+      mode="single"
+      max={56}
+    >
+      {value}
+    </Textfit>
   );
 };
 

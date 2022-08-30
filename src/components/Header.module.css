@@ -7,9 +7,23 @@
 
 .main-header {
   font-size: 32px;
-  color: #ffffff;
   align-self: end;
   letter-spacing: -0.53px;
+}
+
+.main-header--theme1 {
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+.main-header--theme2 {
+  color: #36362c;
+  transition: all 0.4s;
+}
+
+.main-header--theme3 {
+  color: #ffe53d;
+  transition: all 0.4s;
 }
 
 .theme {
@@ -18,13 +32,26 @@
   margin-top: 16px;
   font-size: 12px;
   text-transform: uppercase;
-  color: #ffffff;
   align-self: center;
   letter-spacing: 1px;
 }
 
-.theme-container {
+.theme--theme1 {
   color: #ffffff;
+  transition: all 0.4s;
+}
+
+.theme--theme2 {
+  color: #36362c;
+  transition: all 0.4s;
+}
+
+.theme--theme3 {
+  color: #ffe53d;
+  transition: all 0.4s;
+}
+
+.theme-container {
   width: 71px;
   height: 44px;
 }
@@ -36,20 +63,78 @@
   text-align: center;
 }
 
+.numbers--theme1 {
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+.numbers--theme2 {
+  color: #36362c;
+  transition: all 0.4s;
+}
+
+.numbers--theme3 {
+  color: #ffe53d;
+  transition: all 0.4s;
+}
+
 .button-theme-switcher-container {
-  background: #242d44;
   border-radius: 13px;
   width: 71px;
   height: 26px;
   padding: 5px;
 }
 
+.button-theme-switcher-container--theme1 {
+  background: #242d44;
+  transition: all 0.4s;
+}
+
+.button-theme-switcher-container--theme2 {
+  background: #d2cdcd;
+  transition: all 0.4s;
+}
+
+.button-theme-switcher-container--theme3 {
+  background: #1e0936;
+  transition: all 0.4s;
+}
+
 .button-theme-switcher {
-  background: #d03f2f;
   height: 16px;
   width: 16px;
   border-radius: 50%;
-
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+
+.button-theme-switcher--theme1 {
+  background: #d03f2f;
+  transform: translateX(0px);
+  transition: all 0.4s;
+}
+
+.button-theme-switcher--theme2 {
+  background: #c85402;
+  transform: translateX(21px);
+  transition: all 0.4s;
+}
+
+.button-theme-switcher--theme3 {
+  background: #00ded0;
+  transform: translateX(42px);
+  transition: all 0.4s;
+}
+
+.button-theme-switcher--theme1:hover {
+  background: #f96b5b;
+}
+
+.button-theme-switcher--theme2:hover {
+  background: #ff8a38;
+}
+
+.button-theme-switcher--theme3:hover {
+  background: #93fff8;
 }
